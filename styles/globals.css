@@ -106,7 +106,7 @@ body {
 background: rgb(0, 0, 0);
 display: flex;
 justify-content: center;
-height: 5em;
+height: 4em;
 align-items: center;
 width: 16em;
 font-family: 'Abril Fatface', cursive;
@@ -180,6 +180,7 @@ color:rgb(255, 255, 255);
   width: 66%;
     margin-left: 20%;
   letter-spacing: 1px;
+
 }
 .desc p{
   font-family: 'Tiro Devanagari Marathi', serif;
@@ -199,18 +200,12 @@ color:rgb(255, 255, 255);
 
 .portafolio-titulo{
 
-  /* border-radius: 16px; */
-  /* background: #31485F; */
-  /* box-shadow: inset 5px 5px 1px #000000, inset -5px -5px 1px #f05555; */
-  /* text-align: center; */
-  /* color: rgb(255, 255, 255); */
+
   font-family: 'Tiro Devanagari Marathi', serif;
   font-size: 1.5em;
-  /* height: 5em; */
-  /* width: 19em; */
-  /* background: #31485F; */
+  margin-top: 3em;
   margin-bottom: 3em;
-  margin-top: 4em;
+
 
 }
 
@@ -234,7 +229,7 @@ color:rgb(255, 255, 255);
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
-  padding-bottom: 5em;
+
 }
 .ladingDesc h1{
   font-family: 'Tiro Devanagari Marathi', serif;
@@ -311,6 +306,7 @@ color:rgb(255, 255, 255);
     padding-left: 1em;
     letter-spacing: 1px;  
     font-size: 32px;
+    padding-right: 1em;
   }
   .cardDesc{
     box-shadow: -14px -12px 0px -2px #000000;
@@ -333,7 +329,7 @@ text-align: center;
   margin-top: 5em;
   /* margin-right: 15em; */
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 /* ------------------------------------------------*/
@@ -415,12 +411,247 @@ justify-content: center;
   margin-left: 3em;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1288px) {
 
+.portafolio-titulo svg{
+  height: 5em;
+  width: 100%;
+}
+.descard{
+  font-size: 26px;
+}
+
+.devtitle{
+  width:75%;
+
+}
+}
+
+@media (max-width:1024px){
+
+  .devtitle{
+    height: 20em;
+  }
+  .portafolio-titulo svg{
+    height: 4.5em;
+  }
+  .sticky{
+    height: 3.8em;
+
+  }
+  .icons svg{
+    margin-right: 2em;
+    height:6em
+  }
+  .cardDesc{
+    width: 100%;
+  }
+  .illustration svg{
+    height: 33em;
+    margin-right:0px
+  }
+}
+
+@media (max-width:768px){
+  .li{
+    font-size: 1.2em;
+    margin-right: 1em;
+  }
+  .cv a{
+    font-size: 1.4em;
+  }
+  .caja span{
+    font-size: 8.3vw;
+  }
+  .title{
+    height: 7em;
+
+  }
   .caja{
-    font-size: 1em;
-    background-color: #071450;
+    height: 7em;
+  }
+  .devtitle {
+    height: 20em;
+    width: 80%;}
+  
+  .delop h1{
+    font-size: 2.5em;
+
+    }
+    .desc p{
+      font-size: 1em;
+
+    }
+  .portafolio-titulo svg{
+    height: 4em;
+  }
+  .landingImg {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .ladingPage img {
+    width: 66%;
+    margin-bottom: 2em;
+    max-width: 500px;
+    height: auto;
+}
+.landingImg-left{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.landingImg-left img {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+
+}
+.ladingDesc{
+      margin-left: 0px;
+}
+.ladingDesc-left{
+  margin-left: 4em;
+}
+
+.frontendDev{
+  font-size: 2.6em;
+
+}
+.cardDev-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.cardDesc{
+  margin: 0px 2em;
+  height: 26em;
+}
+
+.icons svg{
+  margin-right: 1em;
+  height: 5em;
+}
+.illustration svg{
+  height: 28em;
+}
+}
+@media (max-width:425px){
+  .menu{
+    display: none;
+  }
+  .caja{
+    height: 10em;
+  }
+  .caja span{
+    font-size:3.5em;
+  }
+  .title{
+    height: 10em;
+
+  }
+  .dev{
+    flex-direction: column;
+  }
+  .photobox{
+    width: 100%;
+    height: 50vh;
+
+  }
+  .devtitle{
+    height: 16em;
+    width: 80%;
+  }
+  .devbox{
+    width: 100%;
+    height: 50vh;
   }
 
+  .delop h1{
+    font-size: 2.6em;
+  }
+  .desc{
+    width: 74%;
 
+  }
+  .desc p {
+    font-size: 1.1em;
+  }
+  .ladingDesc{
+    width: 0;
+   
+    width: 425px;
+    margin-left:0;
+  }
+  .ladingDesc p{
+    text-align: justify;
+    margin-left: 43px;
+    font-size: 1.1em;
+    margin-right: 2em;
+  } 
+  .landingImg img{
+    width: 100%;
+  }
+  .landingImg{
+
+    padding-bottom: 2em;
+  }
+  .ladingPage{
+    width: 425px;
+  }
+  .examplesDev{
+    width: 425px;
+  }
+  .ladingDesc-left{
+    width: 0;
+    align-self: flex-start;
+    width: 425px;
+    margin-left:0;
+  }
+  .ladingDesc-left p{
+    text-align: justify;
+    margin-left: 43px;
+    font-size: 1.1em;
+    margin-right: 2em;
+  }
+  .ladingDesc-left h1{
+    text-align: center;
+  }
+  .ladingDesc h1{
+    text-align: center;
+  }
+  .svg{
+    display: none;
+  }
+  .frontendDev{
+    font-size: 3em;
+    width: 100%;
+    margin-right: 0.5em;
+  }
+
+  .descard{
+    font-size: 22px;
+  }
+  .icons{
+    display: none;
+  }
+  .illustration{
+    display: none;
+  }
+  .emailbox h1{
+    font-size: 1.3em;
+  }
+  .emailfield{
+    width: 78%;
+  }
+  .iconsvgSociall svg{
+    height: 75px;
+  }
+  .cardDesc {
+    margin: 0px 0em;
+    height: 26em;
+
+    width: 105%;
+}
 }
