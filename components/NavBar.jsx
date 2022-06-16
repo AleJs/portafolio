@@ -70,7 +70,7 @@ const NavBar = () => {
             whileTap={{ scale: 0.9 }}
             className="cv"
           >
-            <a href="http://localhost:2000/pdf">DOWNLOAD CV</a>
+            <a href="https://cv-ale24.herokuapp.com/pdf">DOWNLOAD CV</a>
           </motion.div>
         </div>
       </div>
