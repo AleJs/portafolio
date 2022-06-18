@@ -331,7 +331,9 @@ text-align: center;
   display: flex;
   justify-content: center;
 }
-
+.display2{
+  display: none;
+}
 /* ------------------------------------------------*/
 .marquee2 {
   animation-delay: 15s;
@@ -341,7 +343,7 @@ text-align: center;
 .marquee {
   
   left: 100%;
-  width: 100%;
+  width: 1000%;
   overflow: hidden;
   position: relative;
   white-space: nowrap;
@@ -537,7 +539,7 @@ justify-content: center;
   height: 28em;
 }
 }
-@media (max-width:425px){
+@media  (max-width:425px){
   .menu{
     display: none;
   }
@@ -545,7 +547,7 @@ justify-content: center;
     height: 10em;
   }
   .caja span{
-    font-size:3.5em;
+    font-size:13.20vw;
   }
   .title{
     height: 10em;
@@ -653,5 +655,75 @@ justify-content: center;
     height: 26em;
 
     width: 105%;
+}
+}
+
+@media (max-width:375px){
+  .caja span {
+    font-size: 13.20vw;}
+    .delop h1 {
+      font-size: 2.3em;
+  }
+  .descard {
+    font-size: 21px;
+}
+.cardDesc{
+  height: 25em;
+}
+.iconsvgSociall svg {
+  margin-left: 1em;
+}
+.emailbox h1 {
+  font-size: 1.2em;
+  text-align: center;
+}
+}
+
+@media (max-width:320px){
+  .desc p {
+    font-size: 4vw;
+}
+.ladingDesc{
+  width: 88%;
+
+
+
+}
+.landingImg img{
+  width: 78%;
+}
+.ladingDesc-left {
+  width: 87%;
+  transform: none;
+  margin-left: 2em;
+}
+.landingImg-left img{
+  width: 78%;
+}
+.frontendDev {
+  font-size: 2.34em;}
+  .descard {
+    font-size: 19px;
+}
+
+.display {
+  display: none;
+}
+.display2{
+  display: inline;
+}
+
+}
+
+@media (min-width:1900px)
+{
+.title-luis span{
+  font-size: 159px;
+}
+.delop h1 {
+  font-size: 67px;
+}
+.desc p {
+  font-size: 26px;
 }
 }
